@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col d-flex justify-content-between">
+                <h1 class="my-3">{{infos.city.name}}</h1>
+                <button type="button" class="btn btn-info" [routerLink]="['/']"><a class="text-decoration-none text-light" href=""><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg></a></button>
+            </div>
+            <div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div class="li_left d-flex align-items-center">
+                            <h3>00</h3><img src="http://openweathermap.org/img/wn/{{infos.list[0].weather[0].icon}}@2x.png" alt="{{infos.list[0].weather[0].main}}">
+                            <h3>{{infos.list[0].weather[0].main}}</h3>
+                        </div>
+                        <div class="li_right">
+                            <h3>{{infos.list[0].main.temp}} °C</h3>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div class="li_left d-flex align-items-center">
+                            <h3>03</h3><img src="http://openweathermap.org/img/wn/{{infos.list[1].weather[0].icon}}@2x.png" alt="{{infos.list[1].weather[0].main}}">
+                            <h3>{{infos.list[1].weather[0].main}}</h3>
+                        </div>
+                        <div class="li_right">
+                            <h3>{{infos.list[1].main.temp}} °C</h3>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div class="li_left d-flex align-items-center">
+                            <h3>06</h3><img src="http://openweathermap.org/img/wn/{{infos.list[2].weather[0].icon}}@2x.png" alt="{{infos.list[2].weather[0].main}}">
+                            <h3>{{infos.list[2].weather[0].main}}</h3>
+                        </div>
+                        <div class="li_right">
+                            <h3>{{infos.list[2].main.temp}} °C</h3>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div class="li_left d-flex align-items-center">
+                            <h3>09</h3><img src="http://openweathermap.org/img/wn/{{infos.list[3].weather[0].icon}}@2x.png" alt="{{infos.list[3].weather[0].main}}">
+                            <h3>{{infos.list[3].weather[0].main}}</h3>
+                        </div>
+                        <div class="li_right">
+                            <h3>{{infos.list[3].main.temp}} °C</h3>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div class="li_left d-flex align-items-center">
+                            <h3>12</h3><img src="http://openweathermap.org/img/wn/{{infos.list[4].weather[0].icon}}@2x.png" alt="{{infos.list[4].weather[0].main}}">
+                            <h3>{{infos.list[4].weather[0].main}}</h3>
+                        </div>
+                        <div class="li_right">
+                            <h3>{{infos.list[4].main.temp}} °C</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,650 @@
+[
+   {
+      "lat":"37.450",
+      "lon":"13.500",
+      "provincia": "Agrigento",
+      "regione": "Sicilia"
+   },
+   {
+      "lat":"44.817",
+      "lon":"8.700",
+      "provincia": "Alessandria",
+      "regione": "Piemonte"
+   },
+   {
+      "lat":"43.550",
+      "lon":"13.167",
+      "provincia": "Ancona",
+      "regione": "Marche"
+   },
+   {
+      "lat":"41.231",
+      "lon":"16.291",
+      "provincia": "Andria",
+      "regione": "Puglia"
+   },
+   {
+      "lat":"45.737",
+      "lon":"7.317",
+      "provincia": "Aosta",
+      "regione": "Valle d'Aosta/Vallée d'Aoste"
+   },
+   {
+      "lat":"43.472",
+      "lon":"11.869",
+      "provincia": "Arezzo",
+      "regione": "Toscana"
+   },
+   {
+      "lat":"42.884",
+      "lon":"13.553",
+      "provincia": "Ascoli Piceno",
+      "regione": "Marche"
+   },
+   {
+      "lat":"44.917",
+      "lon":"8.167",
+      "provincia": "Asti",
+      "regione": "Piemonte"
+   },
+   {
+      "lat":"40.983",
+      "lon":"15.150",
+      "provincia": "Avellino",
+      "regione": "Campania"
+   },
+   {
+      "lat":"41.118",
+      "lon":"16.851",
+      "provincia": "Bari",
+      "regione": "Puglia"
+   },
+   {
+      "lat":"41.312",
+      "lon":"16.291",
+      "provincia": "Barletta",
+      "regione": "Puglia"
+   },
+   {
+      "lat":"46.250",
+      "lon":"12.133",
+      "provincia": "Belluno",
+      "regione": "Veneto"
+   },
+   {
+      "lat":"41.218",
+      "lon":"14.746",
+      "provincia": "Benevento",
+      "regione": "Campania"
+   },
+   {
+      "lat":"45.833",
+      "lon":"9.800",
+      "provincia": "Bergamo",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"45.587",
+      "lon":"8.086",
+      "provincia": "Biella",
+      "regione": "Piemonte"
+   },
+   {
+      "lat":"44.467",
+      "lon":"11.433",
+      "provincia": "Bologna",
+      "regione": "Emilia-Romagna"
+   },
+   {
+      "lat":"46.493",
+      "lon":"11.334",
+      "provincia": "Bolzano",
+      "regione": "Trentino-Alto Adige/Südtirol"
+   },
+   {
+      "lat":"45.633",
+      "lon":"10.300",
+      "provincia": "Brescia",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"40.583",
+      "lon":"17.667",
+      "provincia": "Brindisi",
+      "regione": "Puglia"
+   },
+   {
+      "lat":"39.245",
+      "lon":"9.091",
+      "provincia": "Cagliari",
+      "regione": "Sardegna"
+   },
+   {
+      "lat":"37.374",
+      "lon":"14.064",
+      "provincia": "Caltanissetta",
+      "regione": "Sicilia"
+   },
+   {
+      "lat":"41.633",
+      "lon":"14.583",
+      "provincia": "Campobasso",
+      "regione": "Molise"
+   },
+   {
+      "lat":"41.233",
+      "lon":"14.167",
+      "provincia": "Caserta",
+      "regione": "Campania"
+   },
+   {
+      "lat":"37.502",
+      "lon":"15.087",
+      "provincia": "Catania",
+      "regione": "Sicilia"
+   },
+   {
+      "lat":"39.917",
+      "lon":"16.433",
+      "provincia": "Catanzaro",
+      "regione": "Calabria"
+   },
+   {
+      "lat":"42.361",
+      "lon":"14.138",
+      "provincia": "Chieti",
+      "regione": "Abruzzo"
+   },
+   {
+      "lat":"45.810",
+      "lon":"9.087",
+      "provincia": "Como",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"39.467",
+      "lon":"16.417",
+      "provincia": "Cosenza",
+      "regione": "Calabria"
+   },
+   {
+      "lat":"45.233",
+      "lon":"9.933",
+      "provincia": "Cremona",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"39.120",
+      "lon":"17.081",
+      "provincia": "Crotone",
+      "regione": "Calabria"
+   },
+   {
+      "lat":"44.517",
+      "lon":"7.567",
+      "provincia": "Cuneo",
+      "regione": "Piemonte"
+   },
+   {
+      "lat":"37.559",
+      "lon":"14.289",
+      "provincia": "Enna",
+      "regione": "Sicilia"
+   },
+   {
+      "lat":"43.165",
+      "lon":"13.723",
+      "provincia": "Fermo",
+      "regione": "Marche"
+   },
+   {
+      "lat":"44.800",
+      "lon":"11.833",
+      "provincia": "Ferrara",
+      "regione": "Emilia-Romagna"
+   },
+   {
+      "lat":"43.786",
+      "lon":"11.249",
+      "provincia": "Firenze",
+      "regione": "Toscana"
+   },
+   {
+      "lat":"41.450",
+      "lon":"15.533",
+      "provincia": "Foggia",
+      "regione": "Puglia"
+   },
+   {
+      "lat":"44.224",
+      "lon":"12.053",
+      "provincia": "Forli'-Cesena",
+      "regione": "Emilia-Romagna"
+   },
+   {
+      "lat":"41.617",
+      "lon":"13.450",
+      "provincia": "Frosinone",
+      "regione": "Lazio"
+   },
+   {
+      "lat":"44.500",
+      "lon":"9.067",
+      "provincia": "Genova",
+      "regione": "Liguria"
+   },
+   {
+      "lat":"45.917",
+      "lon":"13.500",
+      "provincia": "Gorizia",
+      "regione": "Friuli-Venezia Giulia"
+   },
+   {
+      "lat":"42.833",
+      "lon":"11.250",
+      "provincia": "Grosseto",
+      "regione": "Toscana"
+   },
+   {
+      "lat":"43.967",
+      "lon":"7.783",
+      "provincia": "Imperia",
+      "regione": "Liguria"
+   },
+   {
+      "lat":"41.667",
+      "lon":"14.250",
+      "provincia": "Isernia",
+      "regione": "Molise"
+   },
+   {
+      "lat":"42.365",
+      "lon":"13.393",
+      "provincia": "L'Aquila",
+      "regione": "Abruzzo"
+   },
+   {
+      "lat":"44.250",
+      "lon":"9.700",
+      "provincia": "La Spezia",
+      "regione": "Liguria"
+   },
+   {
+      "lat":"41.450",
+      "lon":"13.100",
+      "provincia": "Latina",
+      "regione": "Lazio"
+   },
+   {
+      "lat":"40.217",
+      "lon":"18.167",
+      "provincia": "Lecce",
+      "regione": "Puglia"
+   },
+   {
+      "lat":"45.853",
+      "lon":"9.390",
+      "provincia": "Lecco",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"43.233",
+      "lon":"10.583",
+      "provincia": "Livorno",
+      "regione": "Toscana"
+   },
+   {
+      "lat":"45.314",
+      "lon":"9.503",
+      "provincia": "Lodi",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"44.033",
+      "lon":"10.450",
+      "provincia": "Lucca",
+      "regione": "Toscana"
+   },
+   {
+      "lat":"43.200",
+      "lon":"13.167",
+      "provincia": "Macerata",
+      "regione": "Marche"
+   },
+   {
+      "lat":"45.167",
+      "lon":"10.783",
+      "provincia": "Mantova",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"44.022",
+      "lon":"10.114",
+      "provincia": "Massa Carrara",
+      "regione": "Toscana"
+   },
+   {
+      "lat":"40.500",
+      "lon":"16.417",
+      "provincia": "Matera",
+      "regione": "Basilicata"
+   },
+   {
+      "lat":"38.193",
+      "lon":"15.550",
+      "provincia": "Messina",
+      "regione": "Sicilia"
+   },
+   {
+      "lat":"45.464",
+      "lon":"9.190",
+      "provincia": "Milano",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"44.500",
+      "lon":"10.900",
+      "provincia": "Modena",
+      "regione": "Emilia-Romagna"
+   },
+   {
+      "lat":"45.583",
+      "lon":"9.275",
+      "provincia": "Monza-Brianza",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"40.833",
+      "lon":"14.250",
+      "provincia": "Napoli",
+      "regione": "Campania"
+   },
+   {
+      "lat":"45.585",
+      "lon":"8.578",
+      "provincia": "Novara",
+      "regione": "Piemonte"
+   },
+   {
+      "lat":"40.167",
+      "lon":"9.333",
+      "provincia": "Nuoro",
+      "regione": "Sardegna"
+   },
+   {
+      "lat":"39.900",
+      "lon":"8.600",
+      "provincia": "Oristano",
+      "regione": "Sardegna"
+   },
+   {
+      "lat":"45.350",
+      "lon":"11.817",
+      "provincia": "Padova",
+      "regione": "Veneto"
+   },
+   {
+      "lat":"37.817",
+      "lon":"13.583",
+      "provincia": "Palermo",
+      "regione": "Sicilia"
+   },
+   {
+      "lat":"44.803",
+      "lon":"10.329",
+      "provincia": "Parma",
+      "regione": "Emilia-Romagna"
+   },
+   {
+      "lat":"45.117",
+      "lon":"9.133",
+      "provincia": "Pavia",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"43.050",
+      "lon":"12.550",
+      "provincia": "Perugia",
+      "regione": "Umbria"
+   },
+   {
+      "lat":"43.904",
+      "lon":"12.890",
+      "provincia": "Pesaro-Urbino",
+      "regione": "Marche"
+   },
+   {
+      "lat":"42.333",
+      "lon":"13.950",
+      "provincia": "Pescara",
+      "regione": "Abruzzo"
+   },
+   {
+      "lat":"44.483",
+      "lon":"9.583",
+      "provincia": "Piacenza",
+      "regione": "Emilia-Romagna"
+   },
+   {
+      "lat":"43.715",
+      "lon":"10.397",
+      "provincia": "Pisa",
+      "regione": "Toscana"
+   },
+   {
+      "lat":"43.967",
+      "lon":"10.833",
+      "provincia": "Pistoia",
+      "regione": "Toscana"
+   },
+   {
+      "lat":"45.950",
+      "lon":"12.650",
+      "provincia": "Pordenone",
+      "regione": "Friuli-Venezia Giulia"
+   },
+   {
+      "lat":"40.583",
+      "lon":"15.733",
+      "provincia": "Potenza",
+      "regione": "Basilicata"
+   },
+   {
+      "lat":"43.877",
+      "lon":"11.125",
+      "provincia": "Prato",
+      "regione": "Toscana"
+   },
+   {
+      "lat":"36.917",
+      "lon":"14.600",
+      "provincia": "Ragusa",
+      "regione": "Sicilia"
+   },
+   {
+      "lat":"44.417",
+      "lon":"11.983",
+      "provincia": "Ravenna",
+      "regione": "Emilia-Romagna"
+   },
+   {
+      "lat":"38.317",
+      "lon":"16.083",
+      "provincia": "Reggio Calabria",
+      "regione": "Calabria"
+   },
+   {
+      "lat":"44.617",
+      "lon":"10.617",
+      "provincia": "Reggio Emilia",
+      "regione": "Emilia-Romagna"
+   },
+   {
+      "lat":"42.300",
+      "lon":"12.867",
+      "provincia": "Rieti",
+      "regione": "Lazio"
+   },
+   {
+      "lat":"44.024",
+      "lon":"12.519",
+      "provincia": "Rimini",
+      "regione": "Emilia-Romagna"
+   },
+   {
+      "lat":"41.895",
+      "lon":"12.484",
+      "provincia": "Roma",
+      "regione": "Lazio"
+   },
+   {
+      "lat":"45.033",
+      "lon":"11.833",
+      "provincia": "Rovigo",
+      "regione": "Veneto"
+   },
+   {
+      "lat":"40.450",
+      "lon":"15.267",
+      "provincia": "Salerno",
+      "regione": "Campania"
+   },
+   {
+      "lat":"40.727",
+      "lon":"8.560",
+      "provincia": "Sassari",
+      "regione": "Sardegna"
+   },
+   {
+      "lat":"44.300",
+      "lon":"8.267",
+      "provincia": "Savona",
+      "regione": "Liguria"
+   },
+   {
+      "lat":"43.217",
+      "lon":"11.400",
+      "provincia": "Siena",
+      "regione": "Toscana"
+   },
+   {
+      "lat":"37.088",
+      "lon":"15.279",
+      "provincia": "Siracusa",
+      "regione": "Sicilia"
+   },
+   {
+      "lat":"46.167",
+      "lon":"10.050",
+      "provincia": "Sondrio",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"40.617",
+      "lon":"17.250",
+      "provincia": "Taranto",
+      "regione": "Puglia"
+   },
+   {
+      "lat":"42.650",
+      "lon":"13.683",
+      "provincia": "Teramo",
+      "regione": "Abruzzo"
+   },
+   {
+      "lat":"42.683",
+      "lon":"12.317",
+      "provincia": "Terni",
+      "regione": "Umbria"
+   },
+   {
+      "lat":"45.133",
+      "lon":"7.367",
+      "provincia": "Torino",
+      "regione": "Piemonte"
+   },
+   {
+      "lat":"41.273",
+      "lon":"16.415",
+      "provincia": "Trani",
+      "regione": "Puglia"
+   },
+   {
+      "lat":"37.833",
+      "lon":"12.667",
+      "provincia": "Trapani",
+      "regione": "Sicilia"
+   },
+   {
+      "lat":"46.070",
+      "lon":"11.122",
+      "provincia": "Trento",
+      "regione": "Trentino-Alto Adige/Südtirol"
+   },
+   {
+      "lat":"45.833",
+      "lon":"12.217",
+      "provincia": "Treviso",
+      "regione": "Veneto"
+   },
+   {
+      "lat":"45.664",
+      "lon":"13.807",
+      "provincia": "Trieste",
+      "regione": "Friuli-Venezia Giulia"
+   },
+   {
+      "lat":"46.167",
+      "lon":"13.000",
+      "provincia": "Udine",
+      "regione": "Friuli-Venezia Giulia"
+   },
+   {
+      "lat":"45.800",
+      "lon":"8.800",
+      "provincia": "Varese",
+      "regione": "Lombardia"
+   },
+   {
+      "lat":"45.440",
+      "lon":"12.326",
+      "provincia": "Venezia",
+      "regione": "Veneto"
+   },
+   {
+      "lat":"45.933",
+      "lon":"8.550",
+      "provincia": "Verbano-Cusio-Ossola",
+      "regione": "Piemonte"
+   },
+   {
+      "lat":"45.332",
+      "lon":"8.414",
+      "provincia": "Vercelli",
+      "regione": "Piemonte"
+   },
+   {
+      "lat":"45.417",
+      "lon":"11.033",
+      "provincia": "Verona",
+      "regione": "Veneto"
+   },
+   {
+      "lat":"38.700",
+      "lon":"16.127",
+      "provincia": "Vibo Valentia",
+      "regione": "Calabria"
+   },
+   {
+      "lat":"45.667",
+      "lon":"11.450",
+      "provincia": "Vicenza",
+      "regione": "Veneto"
+   },
+   {
+      "lat":"42.417",
+      "lon":"12.083",
+      "provincia": "Viterbo",
+      "regione": "Lazio"
+   }
+]
