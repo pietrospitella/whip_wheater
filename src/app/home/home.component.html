@@ -4,23 +4,27 @@
           <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div class="container">
+                  <!-- logo -->
                   <a class="navbar-brand" href="/">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud-lightning"><path d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"></path><polyline points="13 11 9 17 15 17 11 23"></polyline></svg>
+                    <img src="assets/images/logo.png" height="50px" alt="">
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
                     <form class="d-flex">
-                      <button class="btn btn-primary mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></button>
+                      <!-- bottone posizione corrente -->
+                      <button (click)="getPosition()" class="btn btn-primary mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></button>
                       <div class="search_cont position-relative">
-                        <input #box class="form-control" (keyup.enter)="getInput(box.value)" type="search" placeholder="Search" aria-label="Search">
-                        <!-- <ul *ngIf="searchResults" class="dropdown-menu" aria-labelledby="search_btn">
-                          <li><a class="dropdown-item" href="">{{searchResults[0].list[0].name}},{{searchResults[0].list[0].sys.country}}</a></li>
-                        </ul> -->
+                        <input #box class="form-control" (keyup.esc)="searchDisappear()" (keyup.enter)="getInput(box.value)" style="min-width: 10rem" type="search" placeholder="Search" aria-label="Search">
+                        <ul class="dropdown-menu" aria-labelledby="search_btn" *ngIf="searchAppear" style="display: block;">
+                          <li><a class="dropdown-item" [routerLink]="['/provincia'+'/'+searchResults[0].list[0].name]" href="">{{searchResults[0].list[0].name}},{{searchResults[0].list[0].sys.country}} <img src="https://openweathermap.org/images/flags/{{searchResults[0].list[0].sys.country.toLowerCase()}}.png" alt=""></a></li>
+                          <li><a class="dropdown-item" [routerLink]="['/provincia'+'/'+searchResults[0].list[1].name]" href="">{{searchResults[0].list[1].name}},{{searchResults[0].list[1].sys.country}} <img src="https://openweathermap.org/images/flags/{{searchResults[0].list[1].sys.country.toLowerCase()}}.png" alt=""></a></li>
+                          <li><a class="dropdown-item" [routerLink]="['/provincia'+'/'+searchResults[0].list[2].name]" href="">{{searchResults[0].list[2].name}},{{searchResults[0].list[2].sys.country}} <img src="https://openweathermap.org/images/flags/{{searchResults[0].list[2].sys.country.toLowerCase()}}.png" alt=""></a></li>
+                        </ul>
                       </div>
                       <input class="form-control mx-2" type="date">
-                      <button id="search_btn" class="btn btn-outline-success" type="submit">Search</button>
+                      <button id="search_btn" class="btn btn-outline-success" (click)="getInput(box.value)" type="submit">Search</button>
                     </form>
                   </div>
                 </div>
